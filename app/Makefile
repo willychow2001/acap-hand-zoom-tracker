@@ -1,0 +1,2 @@
+COPY ./src $(APP_SOURCE_PATH)
+COPY ./include $(APP_INCLUDE_PATH)

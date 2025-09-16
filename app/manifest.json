@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1.7.4",
+  "resources": {
+    "dbus": {
+      "requiredMethods": [
+        "com.axis.PTZ.*"
+      ]
+    }
+  },
+  "acapPackageConf": {
+    "setup": {
+      "friendlyName": "Hand Zoom Tracker",
+      "appName": "hand_zoom_tracker",
+      "vendor": "Vismed Training Limited",
+      "vendorUrl": "http://vismed.tech",
+      "embeddedSdkVersion": "3.0",
+      "runMode": "always",
+      "version": "1.0.0"
+    },
+    "configuration": {
+      "paramConfig": [
+        {
+          "name": "targetPersonId",
+          "default": "person_001",
+          "type": "string"
+        },
+        {
+          "name": "stopTimeThreshold",
+          "default": "3",
+          "type": "int:maxlen=3;min=0;max=60"
+        }
+      ]
+    }
+  }
+}
