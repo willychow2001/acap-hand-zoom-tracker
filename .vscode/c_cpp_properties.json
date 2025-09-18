@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "ACAP",
+            "includePath": [
+                "${workspaceFolder}/app/include",
+                "/path/to/acapsdk/sysroots/armv7hf/usr/include",
+                "/path/to/acapsdk/sysroots/armv7hf/usr/include/c++/9.3.0"
+            ],
+            "defines": [],
+            "compilerPath": "/path/to/acapsdk/toolchain/bin/arm-linux-gnueabihf-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-arm"
+        }
+    ],
+    "version": 4
+}
